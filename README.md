@@ -1,2 +1,2 @@
 # EMS
- EMS UI/UX Project
+ Employee Management System - Angular 19 Project
