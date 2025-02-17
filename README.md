@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Admin
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.7.
@@ -57,3 +58,7 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# EMS
+ Employee Management System - Angular 19 Project
+>>>>>>> 7e496a23cdc969339788b4dadc14acdcc735bb69
