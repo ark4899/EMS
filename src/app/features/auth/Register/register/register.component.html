@@ -1,0 +1,39 @@
+<div class="register-container">
+    <div class="register-form">
+      <div class="form-header">
+        <img src="/assets/user-icon.jpg" alt="User Icon" width="30">
+        <h2>Create Account</h2>
+      </div>
+  
+      <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+        <label>Name</label>
+        <input type="text" formControlName="name" placeholder="Enter your Name">
+  
+        <label>Email</label>
+        <input type="email" formControlName="email" placeholder="Enter your mail ID">
+  
+        <label>Phone Number</label>
+        <input type="text" formControlName="phone" placeholder="Enter your Contact number">
+  
+        <label>Password</label>
+        <input type="password" formControlName="password" placeholder="Enter your password">
+  
+        <label>Confirm Password</label>
+        <input type="password" formControlName="confirmPassword" placeholder="Enter your password again">
+  
+        <div class="remember-me">
+          <input type="checkbox" formControlName="rememberMe">
+          <span>Remember me</span>
+        </div>
+  
+        <button type="submit" [disabled]="registerForm.invalid">Create Account</button>
+      </form>
+  
+      <p class="login-link">Already have an account? <a routerLink="">Sign in</a></p>
+    </div>
+  
+    <div class="banner">
+      <h1>Morwils EMS</h1>
+    </div>
+  </div>
+  
