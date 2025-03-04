@@ -1,0 +1,37 @@
+
+
+<div class="auth-page">
+  <div class="form-container">
+    <div class="form-header">
+      <div class="icon">
+      <img src="/assets/user-icon.jpg" alt="User Icon" width="30">
+      </div>
+
+      
+        <h2>Login</h2>
+    </div>
+    
+    <label>Username</label>
+    <input type="email" placeholder="Enter your Username" />
+
+    <label>Password</label>
+    <input type="password" placeholder="Enter your password" />
+
+    <!-- Remember Me Checkbox -->
+    <div class="remember-me">
+      <input type="checkbox" id="remember-me" />
+        <label for="remember-me">Remember me</label>
+    </div> 
+    
+    <button>Login</button>
+    <div class="links">
+      <p>Don't have an account? <a routerLink="/register">Create an Account</a></p>
+     
+
+      <p><a routerLink="/forgot-password">Forgot your password?</a></p>
+
+  </div>
+  </div>
+  <app-auth-ui-section></app-auth-ui-section>
+
+</div>
