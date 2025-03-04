@@ -49,6 +49,7 @@
     font-size: 16x;
     font-weight: bold;
     margin-top: 10px;
+    margin-left: 10px;
 
 
   }
@@ -67,6 +68,17 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
+  }
+
+  select {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #646367;
   }
   .remember-me {
     gap: 8px;

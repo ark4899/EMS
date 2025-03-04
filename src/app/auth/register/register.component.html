@@ -2,7 +2,7 @@
 <div class="auth-page">
   <div class="form-container">
       <div class="form-header">
-          <img src="/assets/user-icon.jpg" alt="User Icon" width="30">
+          
           <h2>Create Account</h2>
       </div>
 
@@ -15,6 +15,15 @@
 
           <label>Phone Number</label>
           <input type="text" formControlName="phone" placeholder="Enter your Contact number">
+
+          <label>Select Role</label>
+          <select formControlName="role" >
+            <option value="">Select your respective role</option>
+            <option value="admin">Admin</option>
+            <option value="user">HR</option>
+            <option value="user">Employee</option>
+         </select>
+
 
           <label>Password</label>
           <input type="password" formControlName="password" placeholder="Enter your password">
